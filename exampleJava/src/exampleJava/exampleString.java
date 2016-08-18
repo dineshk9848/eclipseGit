@@ -9,7 +9,8 @@ String str = "Hello how are you. Feeling all right today on the count of riveria
 StringTokenizer st = new StringTokenizer(str, " ");
 while (st.hasMoreTokens()) {
 	i++;
-    System.out.println(st.nextToken()); 
+    System.out.println(st.nextToken());
+    System.out.println(st.countTokens());
 }
 System.out.println(i);
 }
